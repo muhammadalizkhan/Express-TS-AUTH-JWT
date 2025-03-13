@@ -1,0 +1,20 @@
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+    "name": "Dani Satria",
+    "email": "dani@devscale.id",
+    "password": "cemangatcelalu"
+}
+
+### Login User
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email": "dani@devscale.id",
+    "password": "cemangatcelalu"
+}
+
+### Resources
+GET http://localhost:8000/resources
